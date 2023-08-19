@@ -1,0 +1,11 @@
+### 
+GET http://0.0.0.0:3000/api/user/read
+Content-Type: application/json
+
+### 
+POST http://0.0.0.0:3000/api/user/register?email=evalia@gmail.com&password=131313&username=evalia
+Content-Type: application/json
+
+### 
+DELETE  http://0.0.0.0:3000/api/user/delete/2
+Content-Type: application/json
